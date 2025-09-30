@@ -101,22 +101,25 @@ Ce chapitre couvre les étapes obligatoires avant d'ouvrir le logiciel de contr�
 
 ### 4.1. Mapping dans Resolume (Workflow Logiciel)
 
-1. **Créer les Univers (Advanced Output)**  
+1. **Créer les Univers (Advanced Output)**
+   - Ouvrir le 'Advanced Output'
    - Dans `Advanced Output, Créer le nombre de lumiverse correspondant a l'installation.  
-   - pour chaque univers dans le **Target IP** selectionner la node ou taper son adresse IP
-   -  
+   - pour chaque univers dans le **Target IP** selectionner la node ou taper son adresse IP.
+   - Ensuite pour chaques univers créé dans resolume indiquer l'univers target pour output sur la node.
 
-### 4.2. Fixture Map et Mapping Vidéo (Accès et Configuration)
-- **Accès** : `Output → Advanced` → ouvre la fenêtre Advanced Output.  
+2. **Pixel Map**
+- **Accès** : toujours dans le Advanced Output
 - **Patching** :  
-  - Ajouter la Fixture (profil = nb de channels).  
-  - Assigner l’Adresse DMX (Start Address + Univers).  
-  - Positionner la Fixture dans l’espace 2D de sortie.  
+  - Selon l'univer ajouter les fixtures et selectionner les bonne avec le menu déroulant
+  - Positionner la Fixture dans l’espace 2D de sortie.
 
-➡️ Le **Mapping vidéo → fixture** permet d’envoyer les pixels vidéo aux bons tubes.  
+ #### 2.1 Créer les fixtures
+ - selectionner le petit engrenage
+ - faire ''+'' et renomer la fixture
+ - Ajuster les parametre (nombre de pixel, rgb/rgbw etc)
 
-### 4.3. Contrôle final
-- **Flux** : Clip Resolume → Fixture Map → Art-Net → Node IP → Tube LED.  
-- **Test** : Lancer un clip couleur unie → vérifier la correspondance.  
+➡️ Le Pixel Map est dorenavent pret a recevoir du contenu a output dans les tubes.  
+
+### 4.2. Contrôle des tubes
 
 ---
