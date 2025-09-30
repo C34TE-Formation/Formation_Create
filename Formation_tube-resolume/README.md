@@ -1,4 +1,4 @@
-# Fichier de Formation Interne : Produits d'Éclairage et Programmation (DMX/Art-Net)
+# Fichier de Formation Interne : Tube et Resolume
 
 ## Table des Matières
 - [1. Les Fondamentaux du Contrôle Lumière](#1-les-fondamentaux-du-contrôle-lumière)  
