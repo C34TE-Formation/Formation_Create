@@ -99,13 +99,12 @@ Ce chapitre couvre les étapes obligatoires avant d'ouvrir le logiciel de contr�
 
 ## 4. Programmation et Contrôle dans RESOLUME
 
-### 4.1. Configuration Art-Net dans Resolume (Workflow Logiciel)
-1. **Connexion Réseau (Préférences)**  
-   - Menu `Preferences → DMX`  
-   - Sélectionner l’interface réseau reliée à la Node.  
-2. **Lier l’Univers (Advanced Output)**  
-   - Dans `Advanced Output → DMX Fixture Map`, assigner chaque Univers Art-Net aux Univers physiques de la Node.  
-   - Resolume envoie les données à l’**IP de la Node**.  
+### 4.1. Mapping dans Resolume (Workflow Logiciel)
+
+1. **Créer les Univers (Advanced Output)**  
+   - Dans `Advanced Output, Créer le nombre de lumiverse correspondant a l'installation.  
+   - pour chaque univers dans le **Target IP** selectionner la node ou taper son adresse IP
+   -  
 
 ### 4.2. Fixture Map et Mapping Vidéo (Accès et Configuration)
 - **Accès** : `Output → Advanced` → ouvre la fenêtre Advanced Output.  
