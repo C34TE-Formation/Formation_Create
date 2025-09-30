@@ -69,7 +69,7 @@ Ce chapitre couvre les étapes obligatoires avant d'ouvrir le logiciel de contr�
 **Principe Opérationnel** :  
 - **En entrepôt (In)** : Tubes pré-adressés et taggés (étiquettes avec code/adresse DMX).  
 - **Sur le terrain (Live)** : Adressage non nécessaire sauf remplacement.  
-- **Au retour (Out)** : Vérification/re-tag/re-adressage OBLIGATOIRE pour standardiser l’inventaire.  
+- **Au retour (Out)** : Vérification/re-tag/re-adressage OBLIGATOIRE si modifier lors du IN.  
 
 **Outil** : Le **DMX Writer** sert à :  
 - Écrire l’adresse DMX.  
